@@ -121,7 +121,7 @@ The following steps will outline how the Legato view is loaded and displayed in 
 ## Handle actions on the Legato view
 The following example steps will outline how the `New app` command (an action on the Legato view) is handled in vscode pluggin:
 1) The function `newApplication` (packages.ts) is called to execute the `New app` command
-2) The function `newApplication` (mkEdit.ts) function is called to execute the `mkedit app command` command 
+2) The function `newApplication` (mkEdit.ts) function is called to execute the `mkedit create app` command 
 3) When the legato files changed, the function `watchFiles` in `legatoLangServ/src/lspClient.ts` (vscode-support) will detect it and update the Legato view (following the steps in "Load and display the Legato view" section)
 
 ## Watch and keep the Legato view up to date
