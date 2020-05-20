@@ -115,8 +115,8 @@ $ tree
 
 ## Load and display the Legato view
 The following steps will outline how the Legato view is loaded and displayed in vscode pluggin:
-1) The function `stopAndStartLegatoLanguageServer` will start language server. Then, collecting Legato information into the variable `data` (DefinitionObject type) to create Legato view 
-2) After collecting all Legato information, the function `getRootElements` (system.ts) is executed to display the Legato view
+1) The function `stopAndStartLegatoLanguageServer` will start language server. Then, collecting Legato system information into the variable `data` (DefinitionObject type) to create Legato view 
+2) After collecting all Legato system information, the function `getRootElements` (system.ts) is executed to display the Legato view
 
 ## Handle actions on the Legato view
 The following example steps will outline how the `New app` command (an action on the Legato view) is handled in vscode pluggin:
