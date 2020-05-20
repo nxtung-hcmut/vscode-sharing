@@ -128,6 +128,10 @@ The following example steps will outline how the `New app` command (an action on
 The Legato view is updated by langguage server (vscode-support). The function `watchFiles` in `legatoLangServ/src/lspClient.ts` is used to watch and keep the Legato view up to date.
 
 ```Typescript
+/**
+ * Watch all Legato files
+ * @watchPaths: Contain all Legato file will be watched
+ */
 private watchFiles(watchPaths: string[])
 {
     this.clearModifyTimeout();
