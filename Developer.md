@@ -130,7 +130,7 @@ The Legato view is updated by langguage server (vscode-support). The function `w
 ```Typescript
 /**
  * Watch all Legato files
- * @watchPaths: Contain all Legato file will be watched
+ * @param watchPaths: Contain all Legato file will be watched
  */
 private watchFiles(watchPaths: string[])
 {
